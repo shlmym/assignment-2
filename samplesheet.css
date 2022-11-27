@@ -1,0 +1,21 @@
+@import url('style2.css');
+
+.sample-page{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+.sample-page h2{
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+}
+.sample-page p{
+    margin-top: 1.3rem;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-bottom: 1.8rem;
+}

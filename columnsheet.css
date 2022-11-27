@@ -1,0 +1,66 @@
+@import url('style2.css');
+
+.column-page{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+.column-page h2{
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+}
+.column-page p{
+    margin-top: 1.3rem;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-bottom: 1.8rem;
+}
+.column-page h3{
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+.column-page hr{
+    margin: 0;
+    margin-bottom: 2rem;
+    opacity: .7;
+}
+.column-page .grid-container{
+    width: 100%;
+    display: grid;
+    box-sizing: border-box;
+    gap: 1.5rem;
+
+}
+.column-page .two-column{
+    grid-template-columns: auto auto;
+}
+.column-page .three-column{
+    grid-template-columns: auto auto auto;
+}
+.column-page .four-column{
+    grid-template-columns: auto auto auto auto;
+}
+.column-page .six-column{
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+@media (max-width:800px) {
+    .column-page{
+        padding: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    .column-page .grid-container{
+        grid-template-columns: 100%;
+        gap: 0;
+    }
+    .column-page .grid-container p{
+        margin-bottom: .5rem;
+    }
+}

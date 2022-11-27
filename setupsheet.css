@@ -1,0 +1,47 @@
+@import url('style2.css');
+
+.setup-page{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+.setup-page h2{
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+}
+.setup-page h3{
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+.setup-page p{
+    margin-top: 1.3rem;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-bottom: 1.8rem;
+}
+.setup-page p a{
+    text-decoration: none;
+    color: #FAB9B5;
+}
+.setup-page li{
+    margin: 8px;
+}
+.setup-page ul{
+    margin-bottom: 2rem;
+}
+.setup-page li a{
+    text-decoration: none;
+    color: #FAB9B5;
+    font-size: 15px;
+    transition-duration: 300ms;
+}
+.setup-page a:hover{
+    color: #000;
+}

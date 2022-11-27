@@ -1,0 +1,25 @@
+@import url('style2.css');
+
+.contact-page{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 2.5rem;
+    padding-bottom: 0;
+}
+.contact-page h2{
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+}
+.contact-page p{
+    margin-top: 1.3rem;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    letter-spacing: .5px;
+    margin-bottom: 1.8rem;
+}
+.contact-page p a{
+    text-decoration: none;
+    color: #FAB9B5;
+}
